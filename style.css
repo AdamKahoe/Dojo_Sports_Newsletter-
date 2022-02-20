@@ -1,0 +1,308 @@
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.alert2 {
+    width: 140px;
+    height: 90px;
+    border: solid black;
+    background-color: white;
+}
+
+.alert2head {
+    font-size: 15px;
+}
+
+.secondtry {
+    padding-right: 15px;
+}
+
+.live_scores {
+    background-color: white;
+    height: 55px;
+    width: auto;
+}
+
+.score_header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.live_scores_head {
+    color: black;
+    background-color: white;
+    padding-left: 50px;
+}
+
+.DSNN_Header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 55px;
+}
+
+.DSNN {
+    color: whitesmoke;
+    font-style: italic;
+    background-color: red;
+    font-weight: bolder;
+    transform: rotateY(23px);
+}
+
+.sport_list {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.search_icon {
+    height: 33px;
+    width: 28px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.hamburger {
+    height: 34px;
+    width: 29px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.user_icon {
+    height: 34px;
+    width: 29px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.col1 {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 35px;
+    margin-top: 5px;
+}
+
+.box_1 {
+    background-color: white;
+    border: transparent 2px;
+    height: 200px;
+    width: 270px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.top-stories {
+    text-decoration: underline;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.box_1_list {
+    text-align: left;
+    padding-left: 15px;
+} 
+
+.box_1_text {
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.box_2 {
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: transparent 2px;
+    height: 120px;
+}
+
+.custom_dsnn {
+    text-align: center;
+    text-decoration: solid;
+}
+
+.button_row {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.button1 {
+    background-color: blue;
+    padding: 5px 5px;
+    width: 110px;
+    box-shadow: 3px 3px;
+    border: solid 3px;
+}
+
+.signup {
+    background-color: white;
+    border: solid 3px;
+    box-shadow: 3px 3px;
+    width: 110px;
+}
+
+#box_3{
+    padding-top: 10px;
+    margin-top: 15px;
+    border: transparent 2px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.disappear {
+    background-color: bisque;
+    border: solid 3px;
+    margin-left: 65px;
+    margin-top: 50px;
+    box-shadow: 3px 3px;
+}
+
+.never {
+    text-align: center;
+    text-decoration: solid;
+}
+
+.col2 {
+    display: inline;
+    padding-left: 95px;
+    margin: 20px 20px;
+}
+
+.box_4 {
+    background-color: white;
+    border-radius: 5px;
+    border: transparent 5px;
+    height: 700px;
+    width: 900px;
+    margin-left: 300px;
+    margin-right: 25px;
+    margin-bottom: 1800px;
+    object-position: 5px;
+    margin-top: 10px;
+}
+
+.box4_headline {
+    margin-right: 15px;
+    font-size: 33px;
+    text-align: right;
+}
+
+.live_symbol {
+    height: 60px;
+    width: 95px;
+    margin-left: 5px;
+}
+
+.listcontainer {
+    display: flex;
+}
+
+.b4_list1 {
+    position: left;
+    justify-content: space-between;
+    object-position: 800px;
+}
+
+.b4_list2 {
+    position: right;
+    justify-content: space-between;
+    object-position: 500px;
+}
+
+.ninja1 {
+    color: lightseagreen;
+    font-size: 35px;
+
+}
+
+.ninja_symbol {
+    height: 155px;
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.tenw {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.ninjascore {
+    font-size: 50px;
+}
+
+.ninjascore1 {
+    background: transparent;
+    font-size: 50px;
+}
+
+.pirate_symbol {
+    height: 155px;
+    width: 170px;
+    padding-top: 10px;
+}
+
+.piratescore {
+    font-size: 50px;
+}
+
+.piratescore1 {
+    font-size: 50px;
+}
+
+.pirate1 {
+    color: red;
+    font-size: 35px;
+}
+
+.twelvew {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.vs {
+    margin-top: 160px;
+    font-size: 65px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 15px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gameinfo {
+    border-top: black solid;
+    text-align: center;
+}
+
+.readmore {
+    color: lightskyblue;
+}

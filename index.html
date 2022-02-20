@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    The Ninjas have just won!
+</div>
+<div class="alert2" onclick="this.remove()">
+    <p class="alert2head">The Ninjas have just won!</p>
+    <button class="secondTry">OK</button>
+</div>
+<div class="live_scores">
+    <div class="score_header">
+        <h1 class="live_scores_head">Live Scores</h1>
+        <ul>
+            <ul>SJC Ninjas - 314</ul>
+            <ul>NS Pirates - 159</ul>
+        </ul>
+        <ul>
+            <ul>CHI Samurai - 0</ul>
+            <ul>TUL Wizards - 0</ul>
+        </ul>
+        <ul>
+            <ul>BOS Hackers - 13</ul>
+            <ul>TYO Youkai  - 37</ul>
+        </ul>
+        <ul>
+            <ul>BOI Knights - 5</ul>
+            <ul>SEA Sea Lions- 11</ul>
+        </ul>
+    </div>
+</div>
+<div class="DSNN_section">
+    <div class="DSNN_Header">
+        <h1 class="DSNN">&nbsp DSNN &nbsp</h1>
+        <p class="sport_list">Football</p>
+        <p class="sport_list">Basketball</p>
+        <p class="sport_list">Baseball</p>
+        <p class="sport_list">Soccer</p>
+        <p class="sport_list">More...</p>
+        <img src="assets\search-light.png" class="search_icon">
+        <img src="assets\hamburger-light.png" class="hamburger">
+        <img src="assets\user-circle-light.png" class="user_icon">
+    </div>
+</div>
+<div class="container">
+    <div class="col1">
+        <div class = "box_1">
+            <h1 class="top-stories">Top Stories</h1>
+            <ul class="box_1_list">
+                <ul class="box_1_text">Ninjas up big in 5th</ul>
+                <ul class="box_1_text">Best sports cities</ul>
+                <ul class="box_1_text">Choi joins Hall of Fame</ul>
+                <ul class="box_1_text">Tournament underway</ul>
+                <ul class="box_1_text">Samurai at Wizards...</ul>
+            </ul>
+        </div>
+        <div class="box_2">
+            <h4 class="custom_dsnn">Customize Your DSNN</h4>
+                <div class="button_row">
+                    <button class = "button1" type="submit">Sign In</button>
+                    <button class = "signup" type="submit">Sign Up</button>
+                </div>
+        </div>
+        <div id="box_3" onclick="this.remove()">
+            <h4 class="never">Never miss a play</h4>
+            <button onclick="this.remove" class = "disappear" type="checkbox">Subscribe</button>
+        </div>
+    </div>
+    <div class="box_4">
+        <h3 class="box4_headline"><img src="assets\live symbol.jpg" class="live_symbol">&nbsp &nbsp &nbsp Ninjas leading Pirates</h3>
+            <div class="listcontainer">
+                <ul class="b4_list1">
+                    <ul><img src="assets\sjc-ninjas.png" class="ninja_symbol"></ul>
+                    <ul class="SJ">San Jose</ul>
+                    <ul class="ninja1">Ninjas</ul>
+                    <ul class="tenw">(10 W - 3L)</ul>
+                    <button class="ninjascore" onclick="add"()>
+                        <span class="ninjascore1">319</span>
+                    </button>
+                </ul>
+                <p class="vs">VS</p>
+                <ul class="b4_list2">
+                    <ul><img src="assets\ns-pirates.png" class="pirate_symbol"></ul>
+                    <ul class="NS">Nova Scotia</ul>
+                    <ul class="pirate1">Pirates</ul>
+                    <ul class="twelvew">(12 W - 2 L)</ul>
+                    <button class="piratecore" onclick="">
+                        <span class="piratescore1">159</span>
+                    </button>
+                </ul>
+            </div>
+        <p class="gameinfo">A conservative match between two top-performing sides in the Central League Division with a Number 1 seed at stake...</p><p class="readmore">Get more live updates...</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
